@@ -156,8 +156,8 @@ namespace LiveSplit.UI.Components
             var comparisonName = CompositeComparisons.GetShortComparisonName(comparison);
             var componentName = "Previous Segment" + (Settings.Comparison == "Current Comparison" ? "" : " (" + comparisonName + ")");
 
-            InternalComponent.LongestString = componentName;
-            InternalComponent.InformationName = componentName;
+            // InternalComponent.LongestString = componentName;
+            // InternalComponent.InformationName = componentName;
 
             DeltaFormatter.Accuracy = Settings.DeltaAccuracy;
             DeltaFormatter.DropDecimals = Settings.DropDecimals;
